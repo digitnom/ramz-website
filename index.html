@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5" />
+    <script>
+      (function () {
+        try {
+          var key = "ramz_language";
+          var saved = window.localStorage.getItem(key);
+          var pathLang =
+            window.location.pathname === "/ar" || window.location.pathname.indexOf("/ar/") === 0
+              ? "ar"
+              : null;
+          var browserLang = (navigator.languages && navigator.languages[0]) || navigator.language || "en";
+          var preferred = browserLang.toLowerCase().indexOf("ar") === 0 ? "ar" : "en";
+          var active = pathLang || (saved === "ar" || saved === "en" ? saved : preferred);
+          document.documentElement.lang = active;
+          document.documentElement.dir = active === "ar" ? "rtl" : "ltr";
+        } catch (e) {
+          document.documentElement.lang = "en";
+          document.documentElement.dir = "ltr";
+        }
+      })();
+    </script>
+
+    <title>RAMZ - Premium Prayer Mats & Islamic Lifestyle Products | Jeddah, Saudi Arabia</title>
+    <meta
+      name="description"
+      content="RAMZ (Ramz) - Authentic Life. Premium prayer mats, Islamic wall art, Ayatul Kursi decor, memory foam sejadah, and luxury gift boxes. Manufacturer based in Jeddah, Saudi Arabia."
+    />
+    <meta
+      name="keywords"
+      content="RAMZ, prayer mats Jeddah, Islamic wall art Saudi Arabia, memory foam sejadah, bamboo silk prayer mat, Islamic gift boxes, Ayatul Kursi decor"
+    />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1" />
+    <meta name="author" content="RAMZ - Authentic Life" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <link rel="canonical" href="https://ramzksa.com/" />
+    <link rel="sitemap" type="application/xml" href="https://ramzksa.com/sitemap.xml" />
+
+    <meta name="theme-color" content="#1B5C2E" />
+    <meta name="msapplication-TileColor" content="#1B5C2E" />
+    <meta name="application-name" content="RAMZ - Authentic Life" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="icon" href="/favicon.ico" />
+
+    <link rel="alternate" hreflang="en-SA" href="https://ramzksa.com/" />
+    <link rel="alternate" hreflang="ar-SA" href="https://ramzksa.com/ar/" />
+    <link rel="alternate" hreflang="x-default" href="https://ramzksa.com/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="RAMZ - Authentic Life" />
+    <meta property="og:title" content="RAMZ - Premium Prayer Mats & Islamic Lifestyle | Jeddah, KSA" />
+    <meta
+      property="og:description"
+      content="Premium prayer mats, Islamic wall art, Ayatul Kursi decor, memory foam sejadah, and luxury Islamic gift boxes. Serving Jeddah and all of Saudi Arabia."
+    />
+    <meta property="og:url" content="https://ramzksa.com/" />
+    <meta property="og:image" content="https://ramzksa.com/opengraph.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:alt" content="RAMZ - Premium Islamic lifestyle products in Saudi Arabia" />
+    <meta property="og:locale" content="en_SA" />
+    <meta property="og:locale:alternate" content="ar_SA" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="RAMZ - Premium Prayer Mats & Islamic Lifestyle | Jeddah" />
+    <meta
+      name="twitter:description"
+      content="Premium prayer mats, Islamic wall art, and luxury gift boxes from Jeddah, Saudi Arabia."
+    />
+    <meta name="twitter:image" content="https://ramzksa.com/opengraph.jpg" />
+    <meta name="twitter:image:alt" content="RAMZ - Premium Islamic lifestyle products in Saudi Arabia" />
+
+    <meta name="geo.region" content="SA-02" />
+    <meta name="geo.placename" content="Jeddah, Saudi Arabia" />
+    <meta name="geo.position" content="21.485811;39.192535" />
+    <meta name="ICBM" content="21.485811,39.192535" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://ramzksa.com/#organization",
+            "name": "RAMZ Authentic Life",
+            "alternateName": ["RAMZ", "Ramz", "RAMZ KSA"],
+            "url": "https://ramzksa.com/",
+            "logo": "https://ramzksa.com/logo.png",
+            "image": "https://ramzksa.com/opengraph.jpg",
+            "description": "Saudi manufacturer of premium prayer mats, Islamic decor, and lifestyle accessories.",
+            "sameAs": ["https://wa.me/966534649387"]
+          },
+          {
+            "@type": ["LocalBusiness", "Store"],
+            "@id": "https://ramzksa.com/#localbusiness",
+            "name": "RAMZ Authentic Life",
+            "url": "https://ramzksa.com/",
+            "image": ["https://ramzksa.com/logo.png", "https://ramzksa.com/opengraph.jpg"],
+            "description": "Manufacturer based in Jeddah, Saudi Arabia, offering 200+ Islamic lifestyle products including prayer mats, wall art, and gift boxes.",
+            "telephone": "+966534649387",
+            "email": "info@ramzksa.com",
+            "priceRange": "SAR 20 - SAR 1,540",
+            "currenciesAccepted": "SAR",
+            "paymentAccepted": "Cash, Bank Transfer, WhatsApp Order",
+            "areaServed": { "@type": "Country", "name": "Saudi Arabia" },
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Rawdah Commercial Center, Ar Rawdah Street",
+              "addressLocality": "Jeddah",
+              "addressRegion": "Makkah",
+              "postalCode": "21442",
+              "addressCountry": "SA"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 21.485811,
+              "longitude": 39.192535
+            },
+            "hasMap": "https://maps.google.com/?q=21.485811,39.192535",
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+                "opens": "09:00",
+                "closes": "21:00"
+              }
+            ],
+            "contactPoint": [
+              {
+                "@type": "ContactPoint",
+                "contactType": "customer service",
+                "telephone": "+966534649387",
+                "availableLanguage": ["en", "ar"],
+                "areaServed": "SA"
+              },
+              {
+                "@type": "ContactPoint",
+                "contactType": "customer service",
+                "telephone": "+966555065473",
+                "availableLanguage": ["en", "ar"],
+                "areaServed": "SA"
+              }
+            ],
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "5.0",
+              "bestRating": "5",
+              "worstRating": "1",
+              "ratingCount": "4",
+              "reviewCount": "4"
+            },
+            "review": [
+              {
+                "@type": "Review",
+                "author": { "@type": "Person", "name": "Ahmed Al-Ghamdi" },
+                "reviewBody": "The memory foam prayer mat from RAMZ transformed my daily prayers. The comfort is unmatched.",
+                "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+              },
+              {
+                "@type": "Review",
+                "author": { "@type": "Person", "name": "Fatima Abdullah" },
+                "reviewBody": "Excellent gift quality and elegant packaging. Truly authentic.",
+                "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+              },
+              {
+                "@type": "Review",
+                "author": { "@type": "Person", "name": "Omar Tariq" },
+                "reviewBody": "The Islamic wall art is stunning and delivery was fast.",
+                "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+              },
+              {
+                "@type": "Review",
+                "author": { "@type": "Person", "name": "Aisha Mansour" },
+                "reviewBody": "RAMZ combines luxury with tradition beautifully. Great travel mat quality.",
+                "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+              }
+            ],
+            "parentOrganization": { "@id": "https://ramzksa.com/#organization" }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://ramzksa.com/#website",
+            "url": "https://ramzksa.com/",
+            "name": "RAMZ - Authentic Life",
+            "description": "Premium Islamic lifestyle products from Jeddah, Saudi Arabia.",
+            "publisher": { "@id": "https://ramzksa.com/#organization" },
+            "inLanguage": ["en-SA", "ar-SA"]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://ramzksa.com/#webpage",
+            "url": "https://ramzksa.com/",
+            "name": "RAMZ - Premium Prayer Mats & Islamic Lifestyle Products",
+            "isPartOf": { "@id": "https://ramzksa.com/#website" },
+            "about": { "@id": "https://ramzksa.com/#organization" },
+            "primaryImageOfPage": "https://ramzksa.com/opengraph.jpg",
+            "inLanguage": "en-SA",
+            "hasPart": {
+              "@type": "WebPage",
+              "@id": "https://ramzksa.com/ar/#webpage",
+              "url": "https://ramzksa.com/ar/",
+              "name": "رمز - سجاد صلاة فاخر ومنتجات نمط الحياة الإسلامية",
+              "inLanguage": "ar-SA"
+            },
+            "breadcrumb": {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://ramzksa.com/" },
+                { "@type": "ListItem", "position": 2, "name": "Products", "item": "https://ramzksa.com/#products" },
+                { "@type": "ListItem", "position": 3, "name": "About", "item": "https://ramzksa.com/#about" },
+                { "@type": "ListItem", "position": 4, "name": "Contact", "item": "https://ramzksa.com/#contact" }
+              ]
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://ramzksa.com/#faqpage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Where can I buy premium prayer mats in Jeddah, Saudi Arabia?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "RAMZ is located at Rawdah Commercial Center, Ar Rawdah Street, Jeddah, Saudi Arabia. You can order by WhatsApp at +966 53 464 9387 or +966 555 065 473."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does RAMZ offer bulk or wholesale prayer mats?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. RAMZ supports bulk and wholesale orders for mosques, hotels, retail, and corporate gifting across Saudi Arabia."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What products does RAMZ manufacture?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "RAMZ manufactures prayer mats, memory foam sejadah, Islamic wall art, gift boxes, and related Islamic lifestyle accessories."
+                }
+              }
+            ]
+          },
+          {
+            "@type": "ItemList",
+            "@id": "https://ramzksa.com/#product-list",
+            "name": "RAMZ Product Catalogue",
+            "itemListOrder": "https://schema.org/ItemListOrderAscending",
+            "numberOfItems": 60,
+            "url": "https://ramzksa.com/#products",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                  "@type": "Product",
+                  "name": "Bamboo Silk Prayer Mat",
+                  "image": "https://ramzksa.com/images/products/Bamboo%20Silk%20Prayer%20Mat.webp",
+                  "brand": { "@type": "Brand", "name": "RAMZ" },
+                  "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "SAR",
+                    "price": "190",
+                    "availability": "https://schema.org/InStock",
+                    "url": "https://ramzksa.com/#products",
+                    "seller": { "@id": "https://ramzksa.com/#localbusiness" }
+                  }
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                  "@type": "Product",
+                  "name": "Memory Foam Prayer Mat 2cm",
+                  "image": "https://ramzksa.com/images/products/Memory%20Foam%20Prayer%20Mat%202cm.jpg",
+                  "brand": { "@type": "Brand", "name": "RAMZ" },
+                  "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "SAR",
+                    "price": "150",
+                    "availability": "https://schema.org/InStock",
+                    "url": "https://ramzksa.com/#products",
+                    "seller": { "@id": "https://ramzksa.com/#localbusiness" }
+                  }
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                  "@type": "Product",
+                  "name": "Bismillah Metal Wall Art",
+                  "image": "https://ramzksa.com/images/products/Bismillah%20Metal%20Wall%20Art.jpg",
+                  "brand": { "@type": "Brand", "name": "RAMZ" },
+                  "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "SAR",
+                    "price": "360",
+                    "availability": "https://schema.org/InStock",
+                    "url": "https://ramzksa.com/#products",
+                    "seller": { "@id": "https://ramzksa.com/#localbusiness" }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <noscript>This website requires JavaScript to render the full bilingual product experience.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

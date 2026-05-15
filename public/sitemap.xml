@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+>
+  <url>
+    <loc>https://ramzksa.com/</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://ramzksa.com/" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://ramzksa.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ramzksa.com/" />
+    <image:image>
+      <image:loc>https://ramzksa.com/opengraph.jpg</image:loc>
+      <image:title>RAMZ - Premium Prayer Mats and Islamic Lifestyle Products</image:title>
+      <image:caption>RAMZ Authentic Life in Jeddah, Saudi Arabia</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ramzksa.com/ar/</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://ramzksa.com/" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://ramzksa.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ramzksa.com/" />
+    <image:image>
+      <image:loc>https://ramzksa.com/opengraph.jpg</image:loc>
+      <image:title>RAMZ - منتجات نمط حياة إسلامية في جدة</image:title>
+      <image:caption>رمز حياة أصيلة - سجاد صلاة ومنتجات إسلامية</image:caption>
+    </image:image>
+  </url>
+</urlset>
