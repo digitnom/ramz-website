@@ -129,6 +129,69 @@ const MATERIAL_AR: Record<string, string> = {
   "Steel - 60x60 cm - Silent Mechanism": "فولاذ - 60x60 سم - آلية صامتة"
 };
 
+const SALE_PRICES: Record<string, { original: string; sale: string }> = {
+  "Foam Prayer Mat 1cm - Pink": { original: "SAR 99", sale: "SAR 39" },
+  "Roll Prayer Mat - Mixed": { original: "SAR 99", sale: "SAR 49" },
+  "Roll Prayer Mat - Violet": { original: "SAR 99", sale: "SAR 49" },
+  "Rollup Prayer Rug - Green Mix": { original: "SAR 129", sale: "SAR 69" },
+  "Rollup Prayer Rug - Cream Beige": { original: "SAR 129", sale: "SAR 69" },
+  "Roll Up Prayer Mat - Dotted Cream": { original: "SAR 129", sale: "SAR 69" },
+  "Roll Up Prayer Mat - Blue Dot": { original: "SAR 129", sale: "SAR 69" },
+  "Rollup Prayer Mat - Dash Cream": { original: "SAR 129", sale: "SAR 69" },
+  "Roll Up Prayer Mat - Dotted Cream 2": { original: "SAR 129", sale: "SAR 69" },
+  "Bag Prayer Mat - Cream Beige": { original: "SAR 129", sale: "SAR 69" },
+  "Bag Prayer Mat - Green Dark": { original: "SAR 129", sale: "SAR 69" },
+  "Bag Prayer Mat - Cream Blue": { original: "SAR 129", sale: "SAR 69" },
+  "Rawdah Rug - Multi-color Floral": { original: "SAR 139", sale: "SAR 79" },
+  "Foam Prayer Mat": { original: "SAR 219", sale: "SAR 129" },
+  "Foam Prayer Mat - Classic": { original: "SAR 219", sale: "SAR 129" },
+  "Foam Prayer Mat - Arch": { original: "SAR 219", sale: "SAR 129" },
+  "Prayer Stool - Ergonomic": { original: "SAR 229", sale: "SAR 139" },
+  "Prayer Stool - Classic": { original: "SAR 269", sale: "SAR 159" },
+  "Luxurious Velvet Prayer Rug": { original: "SAR 279", sale: "SAR 169" },
+  "Luxurious Comfortable Prayer Rug": { original: "SAR 279", sale: "SAR 169" },
+  "Alhamdulillah Mini Art": { original: "SAR 279", sale: "SAR 169" },
+  "Allahu Muhammad (S) Mini Art": { original: "SAR 279", sale: "SAR 169" },
+  "Bismi Mini Art": { original: "SAR 279", sale: "SAR 169" },
+  "Masjid Mini Art": { original: "SAR 279", sale: "SAR 169" },
+  "Bismi Frame Art": { original: "SAR 279", sale: "SAR 169" },
+  "Foam Prayer Mat - Ivory": { original: "SAR 289", sale: "SAR 189" },
+  "100% Viscous Prayer Mat": { original: "SAR 349", sale: "SAR 229" },
+  "Memory Foam Prayer Mat 2cm": { original: "SAR 349", sale: "SAR 229" },
+  "Rawda Prayer Rug - Classic": { original: "SAR 379", sale: "SAR 249" },
+  "Quran Gift Box - Rug + Tasbeeh": { original: "SAR 379", sale: "SAR 249" },
+  "Jummah Kaaba Design Foam Mat": { original: "SAR 409", sale: "SAR 269" },
+  "Rawda Prayer Rug - Premium": { original: "SAR 409", sale: "SAR 269" },
+  "Luxury Quran Gift Box - Green": { original: "SAR 429", sale: "SAR 279" },
+  "Luxury Quran Gift Box - Black": { original: "SAR 429", sale: "SAR 279" },
+  "Bamboo Silk Prayer Mat": { original: "SAR 379", sale: "SAR 249" },
+  "Bamboo Silk Prayer Mat - Classic": { original: "SAR 379", sale: "SAR 249" },
+  "Bamboo Silk Prayer Rug": { original: "SAR 379", sale: "SAR 249" },
+  "Luxury Prayer Gift Box - Large": { original: "SAR 449", sale: "SAR 289" },
+  "Luxury Prayer Gift Box - Cream": { original: "SAR 449", sale: "SAR 289" },
+  "Kaaba Pattern Bamboo Silk Rug": { original: "SAR 449", sale: "SAR 289" },
+  "Allahu Akbar - Vertical": { original: "SAR 489", sale: "SAR 319" },
+  "Surah Al-Nas Metal Art": { original: "SAR 579", sale: "SAR 379" },
+  "Surah Al-Ikhlas Wall Clock": { original: "SAR 579", sale: "SAR 379" },
+  "Hasbunallah - Metal Wall Art": { original: "SAR 599", sale: "SAR 389" },
+  "Hada Min Fadil Rabbi": { original: "SAR 599", sale: "SAR 389" },
+  "Quran Stand Wall Art": { original: "SAR 689", sale: "SAR 449" },
+  "Bismillah Metal Wall Art": { original: "SAR 719", sale: "SAR 469" },
+  "Kalima Metal Wall Art": { original: "SAR 719", sale: "SAR 469" },
+  "Bismillah Frame Art": { original: "SAR 719", sale: "SAR 469" },
+  "Allahu - Metal Art": { original: "SAR 1,049", sale: "SAR 679" },
+  "Surah Al-Ikhlas Clock - Gold": { original: "SAR 1,049", sale: "SAR 679" },
+  "Surah Al-Ikhlas Clock - Premium": { original: "SAR 1,049", sale: "SAR 679" },
+  "Ayatul Kursi Wall Clock": { original: "SAR 1,049", sale: "SAR 679" },
+  "Allahu Akbar - Oval": { original: "SAR 1,059", sale: "SAR 689" },
+  "Al Waqar Quran + Prayer Mat Stand": { original: "SAR 1,209", sale: "SAR 789" },
+  "Cream Viscose Prayer Rug": { original: "SAR 1,379", sale: "SAR 899" },
+  "Luxury Red Viscose Prayer Rug": { original: "SAR 1,379", sale: "SAR 899" },
+  "Maqam Ibrahim Wall Art": { original: "SAR 1,809", sale: "SAR 1,179" },
+  "Asmaul Husna Wall Art": { original: "SAR 1,909", sale: "SAR 1,239" },
+  "Bismillah - Stainless PVD": { original: "SAR 3,089", sale: "SAR 2,009" }
+};
+
 const PRODUCTS = [
   // -- Bamboo Silk & Viscous --------------------------------------------------
   {
@@ -688,6 +751,7 @@ export function Products() {
               (() => {
                 const displayName = isArabic ? PRODUCT_NAME_AR[product.name] ?? product.name : product.name;
                 const displayMaterial = isArabic ? MATERIAL_AR[product.material] ?? product.material : product.material;
+                const salePrice = SALE_PRICES[product.name];
                 return (
               <motion.div
                 layout
@@ -724,7 +788,16 @@ export function Products() {
                     {displayMaterial}
                   </p>
                   <div className="flex items-center justify-between">
-                    <span className="text-sm font-bold text-primary">{product.price}</span>
+                    <div className={`flex flex-col ${isArabic ? "items-end" : "items-start"} leading-tight`}>
+                      {salePrice ? (
+                        <>
+                          <span className="text-xs text-muted-foreground line-through">{salePrice.original}</span>
+                          <span className="text-sm font-extrabold text-rose-600">{salePrice.sale}</span>
+                        </>
+                      ) : (
+                        <span className="text-sm font-bold text-primary">{product.price}</span>
+                      )}
+                    </div>
                     <a
                       href={`https://wa.me/966534649387?text=${encodeURIComponent(
                         isArabic ? `مهتم بهذا المنتج: ${displayName}` : `I'm interested in: ${displayName}`,
