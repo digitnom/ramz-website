@@ -159,7 +159,7 @@ const PRODUCTS = [
     id: 4,
     name: "Cream Viscose Prayer Rug",
     category: "Bamboo Silk & Viscous",
-    image: "/images/products/Cream%20Viscose%20Prayer%20Rug.jpg",
+    image: "/images/products/Cream%20Viscose%20Prayer%20Rug.webp",
     material: "Viscose & Cotton - 78x123 cm",
     price: "SAR 690"
   },
@@ -167,7 +167,7 @@ const PRODUCTS = [
     id: 5,
     name: "Luxury Red Viscose Prayer Rug",
     category: "Bamboo Silk & Viscous",
-    image: "/images/products/Luxury%20Red%20Viscose%20Prayer%20Rug.jpg",
+    image: "/images/products/Luxury%20Red%20Viscose%20Prayer%20Rug.webp",
     material: "Viscose & Cotton - 78x123 cm",
     price: "SAR 690"
   },
@@ -183,7 +183,7 @@ const PRODUCTS = [
     id: 7,
     name: "Kaaba Pattern Bamboo Silk Rug",
     category: "Bamboo Silk & Viscous",
-    image: "/images/products/Kaaba%20Pattern%20Bamboo%20Silk%20Rug.jpg",
+    image: "/images/products/Kaaba%20Pattern%20Bamboo%20Silk%20Rug.webp",
     material: "Bamboo Silk - Ramadan Gift",
     price: "SAR 220"
   },
@@ -191,7 +191,7 @@ const PRODUCTS = [
     id: 8,
     name: "Luxurious Velvet Prayer Rug",
     category: "Bamboo Silk & Viscous",
-    image: "/images/products/Luxurious%20Velvet%20Prayer%20Rug.jpg",
+    image: "/images/products/Luxurious%20Velvet%20Prayer%20Rug.webp",
     material: "Velvet with Silk Edges - Multiple Colors",
     price: "SAR 110"
   },
@@ -201,7 +201,7 @@ const PRODUCTS = [
     id: 9,
     name: "Memory Foam Prayer Mat 2cm",
     category: "Memory Foam",
-    image: "/images/products/Memory%20Foam%20Prayer%20Mat%202cm.jpg",
+    image: "/images/products/Memory%20Foam%20Prayer%20Mat%202cm.webp",
     material: "High-density Memory Foam 2cm - 70x120 cm",
     price: "SAR 150"
   },
@@ -209,7 +209,7 @@ const PRODUCTS = [
     id: 10,
     name: "Jummah Kaaba Design Foam Mat",
     category: "Memory Foam",
-    image: "/images/products/Jummah%20Kaaba%20Design%20Foam%20Mat.jpg",
+    image: "/images/products/Jummah%20Kaaba%20Design%20Foam%20Mat.webp",
     material: "Memory Foam - Kaaba Design",
     price: "SAR 175"
   },
@@ -217,7 +217,7 @@ const PRODUCTS = [
     id: 11,
     name: "Foam Prayer Mat",
     category: "Memory Foam",
-    image: "/images/products/Foam%20Prayer%20Mat.png",
+    image: "/images/products/Foam%20Prayer%20Mat.webp",
     material: "High-density Memory Foam 1cm",
     price: "SAR 80"
   },
@@ -225,7 +225,7 @@ const PRODUCTS = [
     id: 12,
     name: "Foam Prayer Mat - Classic",
     category: "Memory Foam",
-    image: "/images/products/Foam%20Prayer%20Mat%20-%20Classic.png",
+    image: "/images/products/Foam%20Prayer%20Mat%20-%20Classic.webp",
     material: "High-density Memory Foam 1cm",
     price: "SAR 80"
   },
@@ -233,7 +233,7 @@ const PRODUCTS = [
     id: 13,
     name: "Foam Prayer Mat - Arch",
     category: "Memory Foam",
-    image: "/images/products/Foam%20Prayer%20Mat%20-%20Arch.png",
+    image: "/images/products/Foam%20Prayer%20Mat%20-%20Arch.webp",
     material: "High-density Memory Foam 1cm",
     price: "SAR 80"
   },
@@ -241,7 +241,7 @@ const PRODUCTS = [
     id: 14,
     name: "Foam Prayer Mat - Ivory",
     category: "Memory Foam",
-    image: "/images/products/Foam%20Prayer%20Mat%20-%20Ivory.png",
+    image: "/images/products/Foam%20Prayer%20Mat%20-%20Ivory.webp",
     material: "Memory Foam 2cm - 70x110 cm",
     price: "SAR 120"
   },
@@ -249,7 +249,7 @@ const PRODUCTS = [
     id: 15,
     name: "Foam Prayer Mat 1cm - Pink",
     category: "Memory Foam",
-    image: "/images/products/Foam%20Prayer%20Mat%201cm%20-%20Pink.png",
+    image: "/images/products/Foam%20Prayer%20Mat%201cm%20-%20Pink.webp",
     material: "Lightweight Foam 1cm",
     price: "SAR 20"
   },
@@ -259,7 +259,7 @@ const PRODUCTS = [
     id: 16,
     name: "Roll Prayer Mat - Mixed",
     category: "Travel & Roll Mats",
-    image: "/images/products/Roll%20Prayer%20Mat%20-%20Mixed.png",
+    image: "/images/products/Roll%20Prayer%20Mat%20-%20Mixed.webp",
     material: "Soft Cushioned Roll-up",
     price: "SAR 30"
   },
@@ -267,7 +267,7 @@ const PRODUCTS = [
     id: 17,
     name: "Roll Prayer Mat - Violet",
     category: "Travel & Roll Mats",
-    image: "/images/products/Roll%20Prayer%20Mat%20-%20Violet.png",
+    image: "/images/products/Roll%20Prayer%20Mat%20-%20Violet.webp",
     material: "Soft Cushioned Roll-up",
     price: "SAR 30"
   },
@@ -275,7 +275,7 @@ const PRODUCTS = [
     id: 18,
     name: "Rollup Prayer Rug - Green Mix",
     category: "Travel & Roll Mats",
-    image: "/images/products/Rollup%20Prayer%20Rug%20-%20Green%20Mix.png",
+    image: "/images/products/Rollup%20Prayer%20Rug%20-%20Green%20Mix.webp",
     material: "Portable Roll-up Design",
     price: "SAR 46"
   },
@@ -283,7 +283,7 @@ const PRODUCTS = [
     id: 19,
     name: "Rollup Prayer Rug - Cream Beige",
     category: "Travel & Roll Mats",
-    image: "/images/products/Rollup%20Prayer%20Rug%20-%20Cream%20Beige.png",
+    image: "/images/products/Rollup%20Prayer%20Rug%20-%20Cream%20Beige.webp",
     material: "Portable Roll-up Design",
     price: "SAR 46"
   },
@@ -291,7 +291,7 @@ const PRODUCTS = [
     id: 20,
     name: "Roll Up Prayer Mat - Dotted Cream",
     category: "Travel & Roll Mats",
-    image: "/images/products/Roll%20Up%20Prayer%20Mat%20-%20Dotted%20Cream.png",
+    image: "/images/products/Roll%20Up%20Prayer%20Mat%20-%20Dotted%20Cream.webp",
     material: "Cushioned Roll-up",
     price: "SAR 46"
   },
@@ -299,7 +299,7 @@ const PRODUCTS = [
     id: 21,
     name: "Roll Up Prayer Mat - Blue Dot",
     category: "Travel & Roll Mats",
-    image: "/images/products/Roll%20Up%20Prayer%20Mat%20-%20Blue%20Dot.png",
+    image: "/images/products/Roll%20Up%20Prayer%20Mat%20-%20Blue%20Dot.webp",
     material: "Cushioned Roll-up",
     price: "SAR 46"
   },
@@ -307,7 +307,7 @@ const PRODUCTS = [
     id: 22,
     name: "Rollup Prayer Mat - Dash Cream",
     category: "Travel & Roll Mats",
-    image: "/images/products/Rollup%20Prayer%20Mat%20-%20Dash%20Cream.png",
+    image: "/images/products/Rollup%20Prayer%20Mat%20-%20Dash%20Cream.webp",
     material: "Cushioned Roll-up",
     price: "SAR 46"
   },
@@ -315,7 +315,7 @@ const PRODUCTS = [
     id: 23,
     name: "Roll Up Prayer Mat - Dotted Cream 2",
     category: "Travel & Roll Mats",
-    image: "/images/products/Roll%20Up%20Prayer%20Mat%20-%20Dotted%20Cream%202.png",
+    image: "/images/products/Roll%20Up%20Prayer%20Mat%20-%20Dotted%20Cream%202.webp",
     material: "Cushioned Roll-up",
     price: "SAR 46"
   },
@@ -323,7 +323,7 @@ const PRODUCTS = [
     id: 24,
     name: "Bag Prayer Mat - Cream Beige",
     category: "Travel & Roll Mats",
-    image: "/images/products/Bag%20Prayer%20Mat%20-%20Cream%20Beige.png",
+    image: "/images/products/Bag%20Prayer%20Mat%20-%20Cream%20Beige.webp",
     material: "Memory Foam - Compact Carry Bag",
     price: "SAR 46"
   },
@@ -331,7 +331,7 @@ const PRODUCTS = [
     id: 25,
     name: "Bag Prayer Mat - Green Dark",
     category: "Travel & Roll Mats",
-    image: "/images/products/Bag%20Prayer%20Mat%20-%20Green%20Dark.png",
+    image: "/images/products/Bag%20Prayer%20Mat%20-%20Green%20Dark.webp",
     material: "Memory Foam - Compact Carry Bag",
     price: "SAR 46"
   },
@@ -339,7 +339,7 @@ const PRODUCTS = [
     id: 26,
     name: "Bag Prayer Mat - Cream Blue",
     category: "Travel & Roll Mats",
-    image: "/images/products/Bag%20Prayer%20Mat%20-%20Cream%20Blue.png",
+    image: "/images/products/Bag%20Prayer%20Mat%20-%20Cream%20Blue.webp",
     material: "Memory Foam - Compact Carry Bag",
     price: "SAR 46"
   },
@@ -349,7 +349,7 @@ const PRODUCTS = [
     id: 27,
     name: "Rawda Prayer Rug - Premium",
     category: "Rawdah Design",
-    image: "/images/products/Rawda%20Prayer%20Rug%20-%20Premium.jpg",
+    image: "/images/products/Rawda%20Prayer%20Rug%20-%20Premium.webp",
     material: "14mm Thickness - Ultra-soft Surface",
     price: "SAR 175"
   },
@@ -357,7 +357,7 @@ const PRODUCTS = [
     id: 28,
     name: "Rawda Prayer Rug - Classic",
     category: "Rawdah Design",
-    image: "/images/products/Rawda%20Prayer%20Rug%20-%20Classic.jpg",
+    image: "/images/products/Rawda%20Prayer%20Rug%20-%20Classic.webp",
     material: "Premium Woven - Rawdah Design",
     price: "SAR 160"
   },
@@ -365,7 +365,7 @@ const PRODUCTS = [
     id: 29,
     name: "Rawdah Rug - Multi-color Floral",
     category: "Rawdah Design",
-    image: "/images/products/Rawdah%20Rug%20-%20Multi-color%20Floral.jpg",
+    image: "/images/products/Rawdah%20Rug%20-%20Multi-color%20Floral.webp",
     material: "Velvet - Polyester & Cotton",
     price: "SAR 50"
   },
@@ -373,7 +373,7 @@ const PRODUCTS = [
     id: 30,
     name: "Luxurious Comfortable Prayer Rug",
     category: "Rawdah Design",
-    image: "/images/products/Luxurious%20Comfortable%20Prayer%20Rug.jpg",
+    image: "/images/products/Luxurious%20Comfortable%20Prayer%20Rug.webp",
     material: "Velvet with Silk Edges - Multiple Colors",
     price: "SAR 110"
   },
@@ -383,7 +383,7 @@ const PRODUCTS = [
     id: 31,
     name: "Al Waqar Quran + Prayer Mat Stand",
     category: "Accessories & Gifts",
-    image: "/images/products/Al%20Waqar%20Quran%20and%20Prayer%20Mat%20Stand.png",
+    image: "/images/products/Al%20Waqar%20Quran%20and%20Prayer%20Mat%20Stand.webp",
     material: "Premium Metal Stand - Black / Gold",
     price: "SAR 600"
   },
@@ -391,7 +391,7 @@ const PRODUCTS = [
     id: 32,
     name: "Prayer Stool - Ergonomic",
     category: "Accessories & Gifts",
-    image: "/images/products/Prayer%20Stool%20-%20Ergonomic.jpg",
+    image: "/images/products/Prayer%20Stool%20-%20Ergonomic.webp",
     material: "Metal & PU Leather - Adjustable Height",
     price: "SAR 90"
   },
@@ -407,7 +407,7 @@ const PRODUCTS = [
     id: 34,
     name: "Luxury Prayer Gift Box - Large",
     category: "Accessories & Gifts",
-    image: "/images/products/Luxury%20Prayer%20Gift%20Box%20-%20Large.png",
+    image: "/images/products/Luxury%20Prayer%20Gift%20Box%20-%20Large.webp",
     material: "Prayer Rug + Tasbeeh + Quran Cover + Athar",
     price: "SAR 218"
   },
@@ -415,7 +415,7 @@ const PRODUCTS = [
     id: 35,
     name: "Luxury Prayer Gift Box - Cream",
     category: "Accessories & Gifts",
-    image: "/images/products/Luxury%20Prayer%20Gift%20Box%20-%20Cream.png",
+    image: "/images/products/Luxury%20Prayer%20Gift%20Box%20-%20Cream.webp",
     material: "Prayer Rug + Tasbeeh + Quran Cover + Athar",
     price: "SAR 218"
   },
@@ -423,7 +423,7 @@ const PRODUCTS = [
     id: 36,
     name: "Luxury Quran Gift Box - Green",
     category: "Accessories & Gifts",
-    image: "/images/products/Luxury%20Quran%20Gift%20Box%20-%20Green.png",
+    image: "/images/products/Luxury%20Quran%20Gift%20Box%20-%20Green.webp",
     material: "Quran + Tasbeeh + Athar",
     price: "SAR 184"
   },
@@ -431,7 +431,7 @@ const PRODUCTS = [
     id: 37,
     name: "Luxury Quran Gift Box - Black",
     category: "Accessories & Gifts",
-    image: "/images/products/Luxury%20Quran%20Gift%20Box%20-%20Black.png",
+    image: "/images/products/Luxury%20Quran%20Gift%20Box%20-%20Black.webp",
     material: "Quran + Tasbeeh + Athar",
     price: "SAR 184"
   },
@@ -439,7 +439,7 @@ const PRODUCTS = [
     id: 38,
     name: "Quran Gift Box - Rug + Tasbeeh",
     category: "Accessories & Gifts",
-    image: "/images/products/Quran%20Gift%20Box%20-%20Rug%20and%20Tasbeeh.png",
+    image: "/images/products/Quran%20Gift%20Box%20-%20Rug%20and%20Tasbeeh.webp",
     material: "Prayer Rug + Tasbeeh + Quran Cover + Athar",
     price: "SAR 160"
   },
@@ -449,7 +449,7 @@ const PRODUCTS = [
     id: 39,
     name: "Bismillah Metal Wall Art",
     category: "Islamic Wall Art",
-    image: "/images/products/Bismillah%20Metal%20Wall%20Art.jpg",
+    image: "/images/products/Bismillah%20Metal%20Wall%20Art.webp",
     material: "Matte Steel - 90/120/150 cm",
     price: "SAR 360"
   },
@@ -457,7 +457,7 @@ const PRODUCTS = [
     id: 40,
     name: "Bismillah - Stainless PVD",
     category: "Islamic Wall Art",
-    image: "/images/products/Bismillah%20-%20Stainless%20PVD.jpg",
+    image: "/images/products/Bismillah%20-%20Stainless%20PVD.webp",
     material: "Stainless Steel PVD - 60/75/90 cm",
     price: "SAR 1,540"
   },
@@ -465,7 +465,7 @@ const PRODUCTS = [
     id: 41,
     name: "Allahu - Metal Art",
     category: "Islamic Wall Art",
-    image: "/images/products/Allahu%20-%20Metal%20Art.jpg",
+    image: "/images/products/Allahu%20-%20Metal%20Art.webp",
     material: "Matte Steel - 55/65/85 cm",
     price: "SAR 520"
   },
@@ -473,7 +473,7 @@ const PRODUCTS = [
     id: 42,
     name: "Hasbunallah - Metal Wall Art",
     category: "Islamic Wall Art",
-    image: "/images/products/Hasbunallah%20-%20Metal%20Wall%20Art.jpg",
+    image: "/images/products/Hasbunallah%20-%20Metal%20Wall%20Art.webp",
     material: "Matte Steel - 26/35 cm",
     price: "SAR 295"
   },
@@ -481,7 +481,7 @@ const PRODUCTS = [
     id: 43,
     name: "Hada Min Fadil Rabbi",
     category: "Islamic Wall Art",
-    image: "/images/products/Hada%20Min%20Fadil%20Rabbi.jpg",
+    image: "/images/products/Hada%20Min%20Fadil%20Rabbi.webp",
     material: "Matte Steel - 75/105 cm",
     price: "SAR 295"
   },
@@ -489,7 +489,7 @@ const PRODUCTS = [
     id: 44,
     name: "Kalima Metal Wall Art",
     category: "Islamic Wall Art",
-    image: "/images/products/Kalima%20Metal%20Wall%20Art.jpg",
+    image: "/images/products/Kalima%20Metal%20Wall%20Art.webp",
     material: "Matte Steel - 90/120/150 cm",
     price: "SAR 360"
   },
@@ -497,7 +497,7 @@ const PRODUCTS = [
     id: 45,
     name: "Allahu Akbar - Vertical",
     category: "Islamic Wall Art",
-    image: "/images/products/Allahu%20Akbar%20-%20Vertical.jpg",
+    image: "/images/products/Allahu%20Akbar%20-%20Vertical.webp",
     material: "Matte Steel - 15x70 / 19x90 cm",
     price: "SAR 240"
   },
@@ -505,7 +505,7 @@ const PRODUCTS = [
     id: 46,
     name: "Allahu Akbar - Oval",
     category: "Islamic Wall Art",
-    image: "/images/products/Allahu%20Akbar%20-%20Oval.jpg",
+    image: "/images/products/Allahu%20Akbar%20-%20Oval.webp",
     material: "Matte Steel with Clock Mechanism",
     price: "SAR 525"
   },
@@ -513,7 +513,7 @@ const PRODUCTS = [
     id: 47,
     name: "Asmaul Husna Wall Art",
     category: "Islamic Wall Art",
-    image: "/images/products/Asmaul%20Husna%20Wall%20Art.jpg",
+    image: "/images/products/Asmaul%20Husna%20Wall%20Art.webp",
     material: "Matte Steel - 75x75 / 90x90 cm",
     price: "SAR 950"
   },
@@ -521,7 +521,7 @@ const PRODUCTS = [
     id: 48,
     name: "Maqam Ibrahim Wall Art",
     category: "Islamic Wall Art",
-    image: "/images/products/Maqam%20Ibrahim%20Wall%20Art.jpg",
+    image: "/images/products/Maqam%20Ibrahim%20Wall%20Art.webp",
     material: "Matte Steel - 30x45 cm",
     price: "SAR 900"
   },
@@ -529,7 +529,7 @@ const PRODUCTS = [
     id: 49,
     name: "Quran Stand Wall Art",
     category: "Islamic Wall Art",
-    image: "/images/products/Quran%20Stand%20Wall%20Art.jpg",
+    image: "/images/products/Quran%20Stand%20Wall%20Art.webp",
     material: "Matte Steel - Decorative",
     price: "SAR 340"
   },
@@ -537,7 +537,7 @@ const PRODUCTS = [
     id: 50,
     name: "Alhamdulillah Mini Art",
     category: "Islamic Wall Art",
-    image: "/images/products/Alhamdulillah%20Mini%20Art.jpg",
+    image: "/images/products/Alhamdulillah%20Mini%20Art.webp",
     material: "Matte Steel - 20x22 cm",
     price: "SAR 110"
   },
@@ -545,7 +545,7 @@ const PRODUCTS = [
     id: 51,
     name: "Allahu Muhammad (S) Mini Art",
     category: "Islamic Wall Art",
-    image: "/images/products/Allahu%20Muhammad%20(S)%20Mini%20Art.jpg",
+    image: "/images/products/Allahu%20Muhammad%20(S)%20Mini%20Art.webp",
     material: "Matte Steel - 20x22 cm",
     price: "SAR 110"
   },
@@ -553,7 +553,7 @@ const PRODUCTS = [
     id: 52,
     name: "Bismi Mini Art",
     category: "Islamic Wall Art",
-    image: "/images/products/Bismi%20Mini%20Art.jpg",
+    image: "/images/products/Bismi%20Mini%20Art.webp",
     material: "Matte Steel - 20x22 cm",
     price: "SAR 110"
   },
@@ -561,7 +561,7 @@ const PRODUCTS = [
     id: 53,
     name: "Masjid Mini Art",
     category: "Islamic Wall Art",
-    image: "/images/products/Masjid%20Mini%20Art.jpg",
+    image: "/images/products/Masjid%20Mini%20Art.webp",
     material: "Matte Steel - 20x22 cm",
     price: "SAR 110"
   },
@@ -569,7 +569,7 @@ const PRODUCTS = [
     id: 54,
     name: "Bismi Frame Art",
     category: "Islamic Wall Art",
-    image: "/images/products/Bismi%20Frame%20Art.jpg",
+    image: "/images/products/Bismi%20Frame%20Art.webp",
     material: "Matte Steel - 20x22 cm",
     price: "SAR 110"
   },
@@ -577,7 +577,7 @@ const PRODUCTS = [
     id: 55,
     name: "Bismillah Frame Art",
     category: "Islamic Wall Art",
-    image: "/images/products/Bismillah%20Frame%20Art.jpg",
+    image: "/images/products/Bismillah%20Frame%20Art.webp",
     material: "Matte Steel - Large Format",
     price: "SAR 360"
   },
@@ -585,7 +585,7 @@ const PRODUCTS = [
     id: 56,
     name: "Surah Al-Nas Metal Art",
     category: "Islamic Wall Art",
-    image: "/images/products/Surah%20Al-Nas%20Metal%20Art.jpg",
+    image: "/images/products/Surah%20Al-Nas%20Metal%20Art.webp",
     material: "Matte Steel - Multiple Sizes",
     price: "SAR 285"
   },
@@ -595,7 +595,7 @@ const PRODUCTS = [
     id: 57,
     name: "Surah Al-Ikhlas Wall Clock",
     category: "Wall Clocks",
-    image: "/images/products/Surah%20Al-Ikhlas%20Wall%20Clock.jpg",
+    image: "/images/products/Surah%20Al-Ikhlas%20Wall%20Clock.webp",
     material: "Steel - Silent Clock Mechanism - ROHS Certified",
     price: "SAR 285"
   },
@@ -603,7 +603,7 @@ const PRODUCTS = [
     id: 58,
     name: "Surah Al-Ikhlas Clock - Gold",
     category: "Wall Clocks",
-    image: "/images/products/Surah%20Al-Ikhlas%20Clock%20-%20Gold.jpg",
+    image: "/images/products/Surah%20Al-Ikhlas%20Clock%20-%20Gold.webp",
     material: "Steel Gold Finish - Silent Mechanism",
     price: "SAR 520"
   },
@@ -611,7 +611,7 @@ const PRODUCTS = [
     id: 59,
     name: "Surah Al-Ikhlas Clock - Premium",
     category: "Wall Clocks",
-    image: "/images/products/Surah%20Al-Ikhlas%20Clock%20-%20Premium.jpg",
+    image: "/images/products/Surah%20Al-Ikhlas%20Clock%20-%20Premium.webp",
     material: "Steel Gold Finish - Silent Mechanism",
     price: "SAR 520"
   },
@@ -619,7 +619,7 @@ const PRODUCTS = [
     id: 60,
     name: "Ayatul Kursi Wall Clock",
     category: "Wall Clocks",
-    image: "/images/products/Ayatul%20Kursi%20Wall%20Clock.jpg",
+    image: "/images/products/Ayatul%20Kursi%20Wall%20Clock.webp",
     material: "Steel - 60x60 cm - Silent Mechanism",
     price: "SAR 520"
   }
@@ -759,6 +759,7 @@ export function Products() {
     </section>
   );
 }
+
 
 
 
